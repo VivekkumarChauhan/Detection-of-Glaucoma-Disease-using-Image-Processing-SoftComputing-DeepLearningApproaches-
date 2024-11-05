@@ -52,7 +52,6 @@ The provided structure offers different functionalities within the project:
 
 It's highly recommended to create a virtual environment to isolate project dependencies. Here's an example using `venv`:
 
-      
       python -m venv env
       source env/bin/activate  # Linux/macOS
       env\Scripts\activate  # Windows
@@ -63,7 +62,6 @@ To install the required libraries for this project, ensure you have a `requireme
 
 If you are using a virtual environment, activate it first. Then, install the dependencies:
 
-      
         pip install -r requirements.txt
 
 ## Getting Started
@@ -77,17 +75,13 @@ Follow these steps to set up and run the project:
 2. **Run Data Preprocessing**
 
    This script resizes, converts images to grayscale, and normalizes them for model training.
-
-       
+   
        python dataset.py
 ### 3. Train the Machine Learning Models
 
 - **Train the KNN model:**
-
   ```
      python train_knn.py
-
-
 
 ### 4. Train the VGG-16 Model
 
