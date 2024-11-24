@@ -69,7 +69,6 @@ If you are using a virtual environment, activate it first. Then, install the dep
 Follow these steps to set up and run the project:
 
 1. **Download and Organize the Dataset**
-
    Download the Bin Rushed dataset (or your preferred glaucoma dataset) containing labeled images (glaucoma and normal). Organize the dataset into separate folders (e.g., `Glaucoma/` and `Normal/`) within your project directory.
 
 2. **Run Data Preprocessing**
