@@ -1,29 +1,22 @@
 # Glaucoma Detection using Image Processing, Machine Learning, and Deep Learning
 
 This project explores the use of image processing, machine learning, and deep learning techniques for glaucoma detection via retinal image analysis. It leverages feature extraction methods (Cup-to-Disk Ratio (CDR) and Rim-to-Disk Ratio (RDR)) alongside models like K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and the VGG-16 Convolutional Neural Network (CNN) for glaucoma classification.
-
 ## Overview
-
 - **Image Processing**: Preprocessing and feature extraction (CDR, RDR) from retinal images.
 - **Machine Learning**: Classification with KNN, SVM, and Decision Trees.
 - **Deep Learning**: Classification using the VGG-16 CNN model.
 - **Dataset**: Bin Rushed dataset (or your preferred dataset) for glaucoma detection.
-
 ## Glaucoma Detection Project Structure
-
 This project explores the use of image processing, machine learning, and deep learning for glaucoma detection from retinal images.
 
 The provided structure offers different functionalities within the project:
-
 ## Directories
-
 - **.venv (Optional)**: This directory represents a virtual environment created to isolate project dependencies.
 - **dataset_directory**: This folder likely holds the dataset used for training and testing models (glaucoma and normal images).
 - **templates (Optional)**: This directory might contain templates for web applications or visualizations (if applicable).
 - **app.py (Optional)**: This file could be a web application entry point (depending on project scope).
 
 ## Project Files
-
 - **dataset.py & dataset1.py**: These scripts likely handle the data preprocessing tasks, like resizing, grayscale conversion, and normalization.
 - **dl.py, DLmodel.py & ds.py**: These files might be related to deep learning functionality, including model architecture definition or data loading utilities.
 - **evaluation.py**: This script likely evaluates the trained models on a test set, providing metrics like accuracy, precision, recall, etc.
